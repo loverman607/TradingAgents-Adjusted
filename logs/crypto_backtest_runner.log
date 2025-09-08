@@ -1,0 +1,345 @@
+2025-09-07 21:38:06,187 - INFO - Running comprehensive crypto backtest analysis
+2025-09-07 21:38:06,188 - INFO - 1. Running single backtest...
+2025-09-07 21:38:06,188 - INFO - Running backtest for ['BTC', 'ETH'] from 2024-01-01 to 2024-12-31
+2025-09-07 21:38:06,188 - INFO - Strategy: adaptive, Capital: $100,000.00
+2025-09-07 21:38:06,189 - INFO - Starting crypto backtest for ['BTC', 'ETH'] from 2024-01-01 to 2024-12-31
+2025-09-07 21:38:06,189 - INFO - Generating data for BTC...
+2025-09-07 21:38:06,355 - INFO - Created BTC data: 8761 periods, price range $28916.98-$98337.77
+2025-09-07 21:38:06,359 - INFO - Generating data for ETH...
+2025-09-07 21:38:06,489 - INFO - Created ETH data: 8761 periods, price range $1350.11-$7696.60
+2025-09-07 21:38:06,501 - INFO - Running backtest on 8761 data points
+2025-09-07 21:38:06,502 - INFO - Processing 1/8761: 2024-01-01 00:00:00
+2025-09-07 21:38:06,643 - INFO - Processing 101/8761: 2024-01-05 04:00:00
+2025-09-07 21:38:06,830 - INFO - Processing 201/8761: 2024-01-09 08:00:00
+2025-09-07 21:38:06,894 - INFO - BUY: 3.347280 ETH @ $2988.99
+2025-09-07 21:38:07,012 - INFO - Processing 301/8761: 2024-01-13 12:00:00
+2025-09-07 21:38:07,207 - INFO - Processing 401/8761: 2024-01-17 16:00:00
+2025-09-07 21:38:07,412 - INFO - Processing 501/8761: 2024-01-21 20:00:00
+2025-09-07 21:38:07,608 - INFO - Processing 601/8761: 2024-01-26 00:00:00
+2025-09-07 21:38:07,806 - INFO - Processing 701/8761: 2024-01-30 04:00:00
+2025-09-07 21:38:08,005 - INFO - Processing 801/8761: 2024-02-03 08:00:00
+2025-09-07 21:38:08,204 - INFO - Processing 901/8761: 2024-02-07 12:00:00
+2025-09-07 21:38:08,404 - INFO - Processing 1001/8761: 2024-02-11 16:00:00
+2025-09-07 21:38:08,629 - INFO - Processing 1101/8761: 2024-02-15 20:00:00
+2025-09-07 21:38:08,826 - INFO - Processing 1201/8761: 2024-02-20 00:00:00
+2025-09-07 21:38:09,018 - INFO - BUY: 0.492982 BTC @ $63221.13
+2025-09-07 21:38:09,020 - INFO - BUY: 2.577504 ETH @ $4561.25
+2025-09-07 21:38:09,024 - INFO - Processing 1301/8761: 2024-02-24 04:00:00
+2025-09-07 21:38:09,224 - INFO - Processing 1401/8761: 2024-02-28 08:00:00
+2025-09-07 21:38:09,296 - INFO - BUY: 0.795401 BTC @ $65126.29
+2025-09-07 21:38:09,298 - INFO - BUY: 2.837168 ETH @ $4728.59
+2025-09-07 21:38:09,429 - INFO - Processing 1501/8761: 2024-03-03 12:00:00
+2025-09-07 21:38:09,634 - INFO - Processing 1601/8761: 2024-03-07 16:00:00
+2025-09-07 21:38:09,654 - INFO - SELL: 2.951900 ETH @ $5133.89
+2025-09-07 21:38:09,840 - INFO - Processing 1701/8761: 2024-03-11 20:00:00
+2025-09-07 21:38:10,045 - INFO - Processing 1801/8761: 2024-03-16 00:00:00
+2025-09-07 21:38:10,269 - INFO - Processing 1901/8761: 2024-03-20 04:00:00
+2025-09-07 21:38:10,495 - INFO - Processing 2001/8761: 2024-03-24 08:00:00
+2025-09-07 21:38:10,718 - INFO - Processing 2101/8761: 2024-03-28 12:00:00
+2025-09-07 21:38:10,944 - INFO - Processing 2201/8761: 2024-04-01 16:00:00
+2025-09-07 21:38:11,165 - INFO - Processing 2301/8761: 2024-04-05 20:00:00
+2025-09-07 21:38:11,390 - INFO - Processing 2401/8761: 2024-04-10 00:00:00
+2025-09-07 21:38:11,625 - INFO - Processing 2501/8761: 2024-04-14 04:00:00
+2025-09-07 21:38:11,862 - INFO - Processing 2601/8761: 2024-04-18 08:00:00
+2025-09-07 21:38:12,089 - INFO - Processing 2701/8761: 2024-04-22 12:00:00
+2025-09-07 21:38:12,319 - INFO - Processing 2801/8761: 2024-04-26 16:00:00
+2025-09-07 21:38:12,571 - INFO - Processing 2901/8761: 2024-04-30 20:00:00
+2025-09-07 21:38:12,798 - INFO - Processing 3001/8761: 2024-05-05 00:00:00
+2025-09-07 21:38:13,026 - INFO - Processing 3101/8761: 2024-05-09 04:00:00
+2025-09-07 21:38:13,073 - INFO - BUY: 0.833366 BTC @ $80997.73
+2025-09-07 21:38:13,074 - INFO - BUY: 2.449473 ETH @ $6040.60
+2025-09-07 21:38:13,257 - INFO - Processing 3201/8761: 2024-05-13 08:00:00
+2025-09-07 21:38:13,485 - INFO - Processing 3301/8761: 2024-05-17 12:00:00
+2025-09-07 21:38:13,718 - INFO - SELL: 1.163597 BTC @ $79661.04
+2025-09-07 21:38:13,719 - INFO - SELL: 2.625714 ETH @ $5865.80
+2025-09-07 21:38:13,721 - INFO - SELL: 0.784725 BTC @ $79623.42
+2025-09-07 21:38:13,723 - INFO - SELL: 2.285774 ETH @ $5862.00
+2025-09-07 21:38:13,725 - INFO - SELL: 2.058238 ETH @ $5858.42
+2025-09-07 21:38:13,740 - INFO - Processing 3401/8761: 2024-05-21 16:00:00
+2025-09-07 21:38:13,979 - INFO - Processing 3501/8761: 2024-05-25 20:00:00
+2025-09-07 21:38:14,226 - INFO - Processing 3601/8761: 2024-05-30 00:00:00
+2025-09-07 21:38:14,478 - INFO - Processing 3701/8761: 2024-06-03 04:00:00
+2025-09-07 21:38:14,727 - INFO - Processing 3801/8761: 2024-06-07 08:00:00
+2025-09-07 21:38:14,993 - INFO - Processing 3901/8761: 2024-06-11 12:00:00
+2025-09-07 21:38:15,253 - INFO - Processing 4001/8761: 2024-06-15 16:00:00
+2025-09-07 21:38:15,513 - INFO - Processing 4101/8761: 2024-06-19 20:00:00
+2025-09-07 21:38:15,656 - INFO - BUY: 0.281517 BTC @ $74004.60
+2025-09-07 21:38:15,658 - INFO - BUY: 2.095689 ETH @ $5207.64
+2025-09-07 21:38:15,766 - INFO - Processing 4201/8761: 2024-06-24 00:00:00
+2025-09-07 21:38:16,015 - INFO - Processing 4301/8761: 2024-06-28 04:00:00
+2025-09-07 21:38:16,270 - INFO - Processing 4401/8761: 2024-07-02 08:00:00
+2025-09-07 21:38:16,523 - INFO - Processing 4501/8761: 2024-07-06 12:00:00
+2025-09-07 21:38:16,821 - INFO - Processing 4601/8761: 2024-07-10 16:00:00
+2025-09-07 21:38:17,082 - INFO - Processing 4701/8761: 2024-07-14 20:00:00
+2025-09-07 21:38:17,339 - INFO - Processing 4801/8761: 2024-07-19 00:00:00
+2025-09-07 21:38:17,596 - INFO - Processing 4901/8761: 2024-07-23 04:00:00
+2025-09-07 21:38:17,880 - INFO - Processing 5001/8761: 2024-07-27 08:00:00
+2025-09-07 21:38:18,151 - INFO - Processing 5101/8761: 2024-07-31 12:00:00
+2025-09-07 21:38:18,158 - INFO - BUY: 0.562786 BTC @ $55974.31
+2025-09-07 21:38:18,160 - INFO - BUY: 3.299196 ETH @ $3499.63
+2025-09-07 21:38:18,433 - INFO - Processing 5201/8761: 2024-08-04 16:00:00
+2025-09-07 21:38:18,718 - INFO - Processing 5301/8761: 2024-08-08 20:00:00
+2025-09-07 21:38:18,996 - INFO - Processing 5401/8761: 2024-08-13 00:00:00
+2025-09-07 21:38:19,287 - INFO - Processing 5501/8761: 2024-08-17 04:00:00
+2025-09-07 21:38:19,523 - INFO - BUY: 0.973338 BTC @ $49262.25
+2025-09-07 21:38:19,525 - INFO - BUY: 4.299555 ETH @ $2915.23
+2025-09-07 21:38:19,551 - INFO - SELL: 1.502486 BTC @ $48766.67
+2025-09-07 21:38:19,553 - INFO - SELL: 4.622328 ETH @ $2876.22
+2025-09-07 21:38:19,576 - INFO - Processing 5601/8761: 2024-08-21 08:00:00
+2025-09-07 21:38:19,652 - INFO - BUY: 0.888474 BTC @ $49182.79
+2025-09-07 21:38:19,654 - INFO - BUY: 4.217352 ETH @ $2905.51
+2025-09-07 21:38:19,850 - INFO - Processing 5701/8761: 2024-08-25 12:00:00
+2025-09-07 21:38:20,125 - INFO - Processing 5801/8761: 2024-08-29 16:00:00
+2025-09-07 21:38:20,403 - INFO - Processing 5901/8761: 2024-09-02 20:00:00
+2025-09-07 21:38:20,688 - INFO - Processing 6001/8761: 2024-09-07 00:00:00
+2025-09-07 21:38:20,973 - INFO - Processing 6101/8761: 2024-09-11 04:00:00
+2025-09-07 21:38:21,254 - INFO - Processing 6201/8761: 2024-09-15 08:00:00
+2025-09-07 21:38:21,565 - INFO - Processing 6301/8761: 2024-09-19 12:00:00
+2025-09-07 21:38:21,853 - INFO - Processing 6401/8761: 2024-09-23 16:00:00
+2025-09-07 21:38:22,143 - INFO - Processing 6501/8761: 2024-09-27 20:00:00
+2025-09-07 21:38:22,439 - INFO - Processing 6601/8761: 2024-10-02 00:00:00
+2025-09-07 21:38:22,775 - INFO - Processing 6701/8761: 2024-10-06 04:00:00
+2025-09-07 21:38:23,050 - INFO - SELL: 6.919600 ETH @ $1746.17
+2025-09-07 21:38:23,083 - INFO - Processing 6801/8761: 2024-10-10 08:00:00
+2025-09-07 21:38:23,374 - INFO - Processing 6901/8761: 2024-10-14 12:00:00
+2025-09-07 21:38:23,666 - INFO - Processing 7001/8761: 2024-10-18 16:00:00
+2025-09-07 21:38:23,964 - INFO - Processing 7101/8761: 2024-10-22 20:00:00
+2025-09-07 21:38:24,282 - INFO - Processing 7201/8761: 2024-10-27 00:00:00
+2025-09-07 21:38:24,580 - INFO - Processing 7301/8761: 2024-10-31 04:00:00
+2025-09-07 21:38:24,876 - INFO - Processing 7401/8761: 2024-11-04 08:00:00
+2025-09-07 21:38:25,191 - INFO - Processing 7501/8761: 2024-11-08 12:00:00
+2025-09-07 21:38:25,486 - INFO - SELL: 0.814168 BTC @ $32190.43
+2025-09-07 21:38:25,507 - INFO - Processing 7601/8761: 2024-11-12 16:00:00
+2025-09-07 21:38:25,831 - INFO - Processing 7701/8761: 2024-11-16 20:00:00
+2025-09-07 21:38:26,148 - INFO - Processing 7801/8761: 2024-11-21 00:00:00
+2025-09-07 21:38:26,476 - INFO - Processing 7901/8761: 2024-11-25 04:00:00
+2025-09-07 21:38:26,805 - INFO - Processing 8001/8761: 2024-11-29 08:00:00
+2025-09-07 21:38:26,915 - INFO - BUY: 0.687055 BTC @ $37783.29
+2025-09-07 21:38:27,112 - INFO - Processing 8101/8761: 2024-12-03 12:00:00
+2025-09-07 21:38:27,422 - INFO - Processing 8201/8761: 2024-12-07 16:00:00
+2025-09-07 21:38:27,759 - INFO - Processing 8301/8761: 2024-12-11 20:00:00
+2025-09-07 21:38:28,054 - INFO - SELL: 0.754862 BTC @ $37874.07
+2025-09-07 21:38:28,083 - INFO - Processing 8401/8761: 2024-12-16 00:00:00
+2025-09-07 21:38:28,457 - INFO - Processing 8501/8761: 2024-12-20 04:00:00
+2025-09-07 21:38:28,511 - INFO - BUY: 0.676941 BTC @ $38264.92
+2025-09-07 21:38:28,513 - INFO - BUY: 5.702866 ETH @ $1916.78
+2025-09-07 21:38:28,794 - INFO - Processing 8601/8761: 2024-12-24 08:00:00
+2025-09-07 21:38:28,869 - INFO - BUY: 1.309795 BTC @ $39030.25
+2025-09-07 21:38:28,871 - INFO - BUY: 6.282834 ETH @ $1962.38
+2025-09-07 21:38:29,134 - INFO - Processing 8701/8761: 2024-12-28 12:00:00
+2025-09-07 21:38:29,338 - INFO - Crypto backtest completed
+2025-09-07 21:38:29,525 - INFO - Results saved to backtest_results/crypto_backtest_20250907_213829.json
+2025-09-07 21:38:29,525 - INFO - Results saved to backtest_results/crypto_backtest_20250907_213829.json
+2025-09-07 21:38:31,692 - INFO - Charts saved to backtest_charts/
+2025-09-07 21:38:31,692 - INFO - Charts saved to backtest_charts
+2025-09-07 21:38:31,692 - INFO - 2. Running strategy comparison...
+2025-09-07 21:38:31,692 - INFO - Running strategy comparison for ['BTC', 'ETH']
+2025-09-07 21:38:31,692 - INFO - Running 5 backtest scenarios
+2025-09-07 21:38:31,692 - INFO - Running scenario 1/5: momentum_strategy
+2025-09-07 21:38:31,692 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,692 - INFO - Running scenario 2/5: mean_reversion_strategy
+2025-09-07 21:38:31,692 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,692 - INFO - Running scenario 3/5: trend_following_strategy
+2025-09-07 21:38:31,693 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,693 - INFO - Running scenario 4/5: breakout_strategy
+2025-09-07 21:38:31,693 - ERROR - Error in scenario 4: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,693 - INFO - Running scenario 5/5: adaptive_strategy
+2025-09-07 21:38:31,693 - ERROR - Error in scenario 5: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,694 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213831.json
+2025-09-07 21:38:31,694 - INFO - 3. Running timeframe comparison...
+2025-09-07 21:38:31,694 - INFO - Running timeframe comparison for ['BTC', 'ETH']
+2025-09-07 21:38:31,694 - INFO - Running 3 backtest scenarios
+2025-09-07 21:38:31,694 - INFO - Running scenario 1/3: 1H_timeframe
+2025-09-07 21:38:31,694 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,694 - INFO - Running scenario 2/3: 4H_timeframe
+2025-09-07 21:38:31,694 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,694 - INFO - Running scenario 3/3: 1D_timeframe
+2025-09-07 21:38:31,695 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,695 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213831.json
+2025-09-07 21:38:31,695 - INFO - 4. Running period comparison...
+2025-09-07 21:38:31,695 - INFO - Running period comparison for ['BTC', 'ETH']
+2025-09-07 21:38:31,695 - INFO - Running 4 backtest scenarios
+2025-09-07 21:38:31,696 - INFO - Running scenario 1/4: Q1_2024
+2025-09-07 21:38:31,696 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,696 - INFO - Running scenario 2/4: Q2_2024
+2025-09-07 21:38:31,696 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,696 - INFO - Running scenario 3/4: Q3_2024
+2025-09-07 21:38:31,696 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,696 - INFO - Running scenario 4/4: Q4_2024
+2025-09-07 21:38:31,696 - ERROR - Error in scenario 4: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:38:31,696 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213831.json
+2025-09-07 21:38:31,696 - INFO - 5. Generating comprehensive report...
+2025-09-07 21:38:31,697 - ERROR - Backtest failed: name 'pd' is not defined
+2025-09-07 21:39:30,538 - INFO - Running comprehensive crypto backtest analysis
+2025-09-07 21:39:30,538 - INFO - 1. Running single backtest...
+2025-09-07 21:39:30,538 - INFO - Running backtest for ['BTC', 'ETH'] from 2024-01-01 to 2024-12-31
+2025-09-07 21:39:30,538 - INFO - Strategy: adaptive, Capital: $100,000.00
+2025-09-07 21:39:30,539 - INFO - Starting crypto backtest for ['BTC', 'ETH'] from 2024-01-01 to 2024-12-31
+2025-09-07 21:39:30,539 - INFO - Generating data for BTC...
+2025-09-07 21:39:30,714 - INFO - Created BTC data: 8761 periods, price range $28916.98-$98337.77
+2025-09-07 21:39:30,715 - INFO - Generating data for ETH...
+2025-09-07 21:39:30,851 - INFO - Created ETH data: 8761 periods, price range $1350.11-$7696.60
+2025-09-07 21:39:30,864 - INFO - Running backtest on 8761 data points
+2025-09-07 21:39:30,864 - INFO - Processing 1/8761: 2024-01-01 00:00:00
+2025-09-07 21:39:31,001 - INFO - Processing 101/8761: 2024-01-05 04:00:00
+2025-09-07 21:39:31,182 - INFO - Processing 201/8761: 2024-01-09 08:00:00
+2025-09-07 21:39:31,245 - INFO - BUY: 3.347280 ETH @ $2988.99
+2025-09-07 21:39:31,366 - INFO - Processing 301/8761: 2024-01-13 12:00:00
+2025-09-07 21:39:31,557 - INFO - Processing 401/8761: 2024-01-17 16:00:00
+2025-09-07 21:39:31,761 - INFO - Processing 501/8761: 2024-01-21 20:00:00
+2025-09-07 21:39:31,956 - INFO - Processing 601/8761: 2024-01-26 00:00:00
+2025-09-07 21:39:32,165 - INFO - Processing 701/8761: 2024-01-30 04:00:00
+2025-09-07 21:39:32,358 - INFO - Processing 801/8761: 2024-02-03 08:00:00
+2025-09-07 21:39:32,555 - INFO - Processing 901/8761: 2024-02-07 12:00:00
+2025-09-07 21:39:32,776 - INFO - Processing 1001/8761: 2024-02-11 16:00:00
+2025-09-07 21:39:32,974 - INFO - Processing 1101/8761: 2024-02-15 20:00:00
+2025-09-07 21:39:33,173 - INFO - Processing 1201/8761: 2024-02-20 00:00:00
+2025-09-07 21:39:33,380 - INFO - BUY: 0.492982 BTC @ $63221.13
+2025-09-07 21:39:33,381 - INFO - BUY: 2.577504 ETH @ $4561.25
+2025-09-07 21:39:33,386 - INFO - Processing 1301/8761: 2024-02-24 04:00:00
+2025-09-07 21:39:33,596 - INFO - Processing 1401/8761: 2024-02-28 08:00:00
+2025-09-07 21:39:33,671 - INFO - BUY: 0.795401 BTC @ $65126.29
+2025-09-07 21:39:33,672 - INFO - BUY: 2.837168 ETH @ $4728.59
+2025-09-07 21:39:33,807 - INFO - Processing 1501/8761: 2024-03-03 12:00:00
+2025-09-07 21:39:34,013 - INFO - Processing 1601/8761: 2024-03-07 16:00:00
+2025-09-07 21:39:34,034 - INFO - SELL: 2.951900 ETH @ $5133.89
+2025-09-07 21:39:34,220 - INFO - Processing 1701/8761: 2024-03-11 20:00:00
+2025-09-07 21:39:34,425 - INFO - Processing 1801/8761: 2024-03-16 00:00:00
+2025-09-07 21:39:34,659 - INFO - Processing 1901/8761: 2024-03-20 04:00:00
+2025-09-07 21:39:34,875 - INFO - Processing 2001/8761: 2024-03-24 08:00:00
+2025-09-07 21:39:35,087 - INFO - Processing 2101/8761: 2024-03-28 12:00:00
+2025-09-07 21:39:35,307 - INFO - Processing 2201/8761: 2024-04-01 16:00:00
+2025-09-07 21:39:35,526 - INFO - Processing 2301/8761: 2024-04-05 20:00:00
+2025-09-07 21:39:35,750 - INFO - Processing 2401/8761: 2024-04-10 00:00:00
+2025-09-07 21:39:35,979 - INFO - Processing 2501/8761: 2024-04-14 04:00:00
+2025-09-07 21:39:36,208 - INFO - Processing 2601/8761: 2024-04-18 08:00:00
+2025-09-07 21:39:36,430 - INFO - Processing 2701/8761: 2024-04-22 12:00:00
+2025-09-07 21:39:36,657 - INFO - Processing 2801/8761: 2024-04-26 16:00:00
+2025-09-07 21:39:36,884 - INFO - Processing 2901/8761: 2024-04-30 20:00:00
+2025-09-07 21:39:37,126 - INFO - Processing 3001/8761: 2024-05-05 00:00:00
+2025-09-07 21:39:37,376 - INFO - Processing 3101/8761: 2024-05-09 04:00:00
+2025-09-07 21:39:37,429 - INFO - BUY: 0.833366 BTC @ $80997.73
+2025-09-07 21:39:37,431 - INFO - BUY: 2.449473 ETH @ $6040.60
+2025-09-07 21:39:37,660 - INFO - Processing 3201/8761: 2024-05-13 08:00:00
+2025-09-07 21:39:37,905 - INFO - Processing 3301/8761: 2024-05-17 12:00:00
+2025-09-07 21:39:38,123 - INFO - SELL: 1.163597 BTC @ $79661.04
+2025-09-07 21:39:38,124 - INFO - SELL: 2.625714 ETH @ $5865.80
+2025-09-07 21:39:38,126 - INFO - SELL: 0.784725 BTC @ $79623.42
+2025-09-07 21:39:38,128 - INFO - SELL: 2.285774 ETH @ $5862.00
+2025-09-07 21:39:38,131 - INFO - SELL: 2.058238 ETH @ $5858.42
+2025-09-07 21:39:38,146 - INFO - Processing 3401/8761: 2024-05-21 16:00:00
+2025-09-07 21:39:38,396 - INFO - Processing 3501/8761: 2024-05-25 20:00:00
+2025-09-07 21:39:38,665 - INFO - Processing 3601/8761: 2024-05-30 00:00:00
+2025-09-07 21:39:38,931 - INFO - Processing 3701/8761: 2024-06-03 04:00:00
+2025-09-07 21:39:39,181 - INFO - Processing 3801/8761: 2024-06-07 08:00:00
+2025-09-07 21:39:39,428 - INFO - Processing 3901/8761: 2024-06-11 12:00:00
+2025-09-07 21:39:39,685 - INFO - Processing 4001/8761: 2024-06-15 16:00:00
+2025-09-07 21:39:39,937 - INFO - Processing 4101/8761: 2024-06-19 20:00:00
+2025-09-07 21:39:40,080 - INFO - BUY: 0.281517 BTC @ $74004.60
+2025-09-07 21:39:40,082 - INFO - BUY: 2.095689 ETH @ $5207.64
+2025-09-07 21:39:40,196 - INFO - Processing 4201/8761: 2024-06-24 00:00:00
+2025-09-07 21:39:40,457 - INFO - Processing 4301/8761: 2024-06-28 04:00:00
+2025-09-07 21:39:40,727 - INFO - Processing 4401/8761: 2024-07-02 08:00:00
+2025-09-07 21:39:40,984 - INFO - Processing 4501/8761: 2024-07-06 12:00:00
+2025-09-07 21:39:41,240 - INFO - Processing 4601/8761: 2024-07-10 16:00:00
+2025-09-07 21:39:41,501 - INFO - Processing 4701/8761: 2024-07-14 20:00:00
+2025-09-07 21:39:41,763 - INFO - Processing 4801/8761: 2024-07-19 00:00:00
+2025-09-07 21:39:42,028 - INFO - Processing 4901/8761: 2024-07-23 04:00:00
+2025-09-07 21:39:42,293 - INFO - Processing 5001/8761: 2024-07-27 08:00:00
+2025-09-07 21:39:42,604 - INFO - Processing 5101/8761: 2024-07-31 12:00:00
+2025-09-07 21:39:42,611 - INFO - BUY: 0.562786 BTC @ $55974.31
+2025-09-07 21:39:42,612 - INFO - BUY: 3.299196 ETH @ $3499.63
+2025-09-07 21:39:42,892 - INFO - Processing 5201/8761: 2024-08-04 16:00:00
+2025-09-07 21:39:43,165 - INFO - Processing 5301/8761: 2024-08-08 20:00:00
+2025-09-07 21:39:43,447 - INFO - Processing 5401/8761: 2024-08-13 00:00:00
+2025-09-07 21:39:43,777 - INFO - Processing 5501/8761: 2024-08-17 04:00:00
+2025-09-07 21:39:43,999 - INFO - BUY: 0.973338 BTC @ $49262.25
+2025-09-07 21:39:44,001 - INFO - BUY: 4.299555 ETH @ $2915.23
+2025-09-07 21:39:44,027 - INFO - SELL: 1.502486 BTC @ $48766.67
+2025-09-07 21:39:44,029 - INFO - SELL: 4.622328 ETH @ $2876.22
+2025-09-07 21:39:44,049 - INFO - Processing 5601/8761: 2024-08-21 08:00:00
+2025-09-07 21:39:44,126 - INFO - BUY: 0.888474 BTC @ $49182.79
+2025-09-07 21:39:44,128 - INFO - BUY: 4.217352 ETH @ $2905.51
+2025-09-07 21:39:44,327 - INFO - Processing 5701/8761: 2024-08-25 12:00:00
+2025-09-07 21:39:44,608 - INFO - Processing 5801/8761: 2024-08-29 16:00:00
+2025-09-07 21:39:44,931 - INFO - Processing 5901/8761: 2024-09-02 20:00:00
+2025-09-07 21:39:45,247 - INFO - Processing 6001/8761: 2024-09-07 00:00:00
+2025-09-07 21:39:45,537 - INFO - Processing 6101/8761: 2024-09-11 04:00:00
+2025-09-07 21:39:45,842 - INFO - Processing 6201/8761: 2024-09-15 08:00:00
+2025-09-07 21:39:46,139 - INFO - Processing 6301/8761: 2024-09-19 12:00:00
+2025-09-07 21:39:46,426 - INFO - Processing 6401/8761: 2024-09-23 16:00:00
+2025-09-07 21:39:46,779 - INFO - Processing 6501/8761: 2024-09-27 20:00:00
+2025-09-07 21:39:47,064 - INFO - Processing 6601/8761: 2024-10-02 00:00:00
+2025-09-07 21:39:47,347 - INFO - Processing 6701/8761: 2024-10-06 04:00:00
+2025-09-07 21:39:47,608 - INFO - SELL: 6.919600 ETH @ $1746.17
+2025-09-07 21:39:47,650 - INFO - Processing 6801/8761: 2024-10-10 08:00:00
+2025-09-07 21:39:47,956 - INFO - Processing 6901/8761: 2024-10-14 12:00:00
+2025-09-07 21:39:48,258 - INFO - Processing 7001/8761: 2024-10-18 16:00:00
+2025-09-07 21:39:48,553 - INFO - Processing 7101/8761: 2024-10-22 20:00:00
+2025-09-07 21:39:48,866 - INFO - Processing 7201/8761: 2024-10-27 00:00:00
+2025-09-07 21:39:49,172 - INFO - Processing 7301/8761: 2024-10-31 04:00:00
+2025-09-07 21:39:49,479 - INFO - Processing 7401/8761: 2024-11-04 08:00:00
+2025-09-07 21:39:49,785 - INFO - Processing 7501/8761: 2024-11-08 12:00:00
+2025-09-07 21:39:50,070 - INFO - SELL: 0.814168 BTC @ $32190.43
+2025-09-07 21:39:50,090 - INFO - Processing 7601/8761: 2024-11-12 16:00:00
+2025-09-07 21:39:50,413 - INFO - Processing 7701/8761: 2024-11-16 20:00:00
+2025-09-07 21:39:50,720 - INFO - Processing 7801/8761: 2024-11-21 00:00:00
+2025-09-07 21:39:51,025 - INFO - Processing 7901/8761: 2024-11-25 04:00:00
+2025-09-07 21:39:51,334 - INFO - Processing 8001/8761: 2024-11-29 08:00:00
+2025-09-07 21:39:51,484 - INFO - BUY: 0.687055 BTC @ $37783.29
+2025-09-07 21:39:51,690 - INFO - Processing 8101/8761: 2024-12-03 12:00:00
+2025-09-07 21:39:52,007 - INFO - Processing 8201/8761: 2024-12-07 16:00:00
+2025-09-07 21:39:52,406 - INFO - Processing 8301/8761: 2024-12-11 20:00:00
+2025-09-07 21:39:52,699 - INFO - SELL: 0.754862 BTC @ $37874.07
+2025-09-07 21:39:52,729 - INFO - Processing 8401/8761: 2024-12-16 00:00:00
+2025-09-07 21:39:53,065 - INFO - Processing 8501/8761: 2024-12-20 04:00:00
+2025-09-07 21:39:53,119 - INFO - BUY: 0.676941 BTC @ $38264.92
+2025-09-07 21:39:53,121 - INFO - BUY: 5.702866 ETH @ $1916.78
+2025-09-07 21:39:53,390 - INFO - Processing 8601/8761: 2024-12-24 08:00:00
+2025-09-07 21:39:53,460 - INFO - BUY: 1.309795 BTC @ $39030.25
+2025-09-07 21:39:53,462 - INFO - BUY: 6.282834 ETH @ $1962.38
+2025-09-07 21:39:53,714 - INFO - Processing 8701/8761: 2024-12-28 12:00:00
+2025-09-07 21:39:53,909 - INFO - Crypto backtest completed
+2025-09-07 21:39:54,095 - INFO - Results saved to backtest_results/crypto_backtest_20250907_213953.json
+2025-09-07 21:39:54,096 - INFO - Results saved to backtest_results/crypto_backtest_20250907_213953.json
+2025-09-07 21:39:56,223 - INFO - Charts saved to backtest_charts/
+2025-09-07 21:39:56,223 - INFO - Charts saved to backtest_charts
+2025-09-07 21:39:56,223 - INFO - 2. Running strategy comparison...
+2025-09-07 21:39:56,223 - INFO - Running strategy comparison for ['BTC', 'ETH']
+2025-09-07 21:39:56,223 - INFO - Running 5 backtest scenarios
+2025-09-07 21:39:56,223 - INFO - Running scenario 1/5: momentum_strategy
+2025-09-07 21:39:56,224 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,224 - INFO - Running scenario 2/5: mean_reversion_strategy
+2025-09-07 21:39:56,224 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,224 - INFO - Running scenario 3/5: trend_following_strategy
+2025-09-07 21:39:56,224 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,224 - INFO - Running scenario 4/5: breakout_strategy
+2025-09-07 21:39:56,224 - ERROR - Error in scenario 4: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,224 - INFO - Running scenario 5/5: adaptive_strategy
+2025-09-07 21:39:56,224 - ERROR - Error in scenario 5: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,225 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213956.json
+2025-09-07 21:39:56,225 - INFO - 3. Running timeframe comparison...
+2025-09-07 21:39:56,225 - INFO - Running timeframe comparison for ['BTC', 'ETH']
+2025-09-07 21:39:56,225 - INFO - Running 3 backtest scenarios
+2025-09-07 21:39:56,225 - INFO - Running scenario 1/3: 1H_timeframe
+2025-09-07 21:39:56,225 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,225 - INFO - Running scenario 2/3: 4H_timeframe
+2025-09-07 21:39:56,225 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,225 - INFO - Running scenario 3/3: 1D_timeframe
+2025-09-07 21:39:56,226 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,226 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213956.json
+2025-09-07 21:39:56,226 - INFO - 4. Running period comparison...
+2025-09-07 21:39:56,226 - INFO - Running period comparison for ['BTC', 'ETH']
+2025-09-07 21:39:56,226 - INFO - Running 4 backtest scenarios
+2025-09-07 21:39:56,226 - INFO - Running scenario 1/4: Q1_2024
+2025-09-07 21:39:56,226 - ERROR - Error in scenario 1: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,226 - INFO - Running scenario 2/4: Q2_2024
+2025-09-07 21:39:56,227 - ERROR - Error in scenario 2: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,227 - INFO - Running scenario 3/4: Q3_2024
+2025-09-07 21:39:56,227 - ERROR - Error in scenario 3: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,227 - INFO - Running scenario 4/4: Q4_2024
+2025-09-07 21:39:56,227 - ERROR - Error in scenario 4: CryptoBacktestLauncher.run_single_backtest() got an unexpected keyword argument 'name'
+2025-09-07 21:39:56,227 - INFO - Combined results saved to backtest_results/multiple_backtests_20250907_213956.json
+2025-09-07 21:39:56,227 - INFO - 5. Generating comprehensive report...
+2025-09-07 21:39:56,230 - INFO - Comprehensive report saved to backtest_results/comprehensive_analysis_20250907_213956.txt
+2025-09-07 21:39:56,434 - INFO - All results saved to backtest_results/comprehensive_results_20250907_213956.json

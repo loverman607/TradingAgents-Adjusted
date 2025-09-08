@@ -1,0 +1,3 @@
+It seems that there is no available stock price data for HBAR within the specified date ranges. This could be due to HBAR being a cryptocurrency (Hedera Hashgraph) rather than a traditional stock, which would affect the data accessibility in the given format.
+
+To proceed further, we can focus on technical indicators and analyses typical for cryptocurrencies. However, I need clarification on whether you still want to analyze HBAR specifically or if you'd prefer to look into a different asset class or another cryptocurrency. Please let me know how you would like to continue!

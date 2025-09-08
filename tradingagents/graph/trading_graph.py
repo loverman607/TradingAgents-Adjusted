@@ -1,6 +1,11 @@
 # TradingAgents/graph/trading_graph.py
 
+from dotenv import load_dotenv
 import os
+
+# Load environment variables from .env file
+load_dotenv()
+
 from pathlib import Path
 import json
 from datetime import date

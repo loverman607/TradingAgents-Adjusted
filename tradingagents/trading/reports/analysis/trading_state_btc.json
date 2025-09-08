@@ -1,0 +1,11 @@
+{
+  "initial_capital": 100000.0,
+  "available_capital": 100000.0,
+  "max_position_size": 0.15,
+  "positions": {},
+  "orders": [],
+  "order_history": [],
+  "trade_history": [],
+  "daily_pnl": 0.0,
+  "last_reset_date": "2025-09-08"
+}

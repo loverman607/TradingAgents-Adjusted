@@ -1,0 +1,137 @@
+# Crypto Backtest Configuration
+# This file contains all configuration options for the crypto backtesting system
+
+# General Settings
+general:
+  initial_capital: 100000.0
+  max_position_size: 0.2  # 20% max position size
+  commission: 0.001  # 0.1% commission per trade
+  slippage: 0.0005  # 0.05% slippage
+  timezone: "UTC"
+
+# Backtest Parameters
+backtest:
+  start_date: "2024-01-01"
+  end_date: "2024-12-31"
+  timeframe: "1H"  # 1H, 4H, 1D
+  tickers: ["BTC", "ETH"]
+  strategy: "adaptive"  # momentum, mean_reversion, trend_following, breakout, adaptive
+  
+# Data Generation
+data:
+  seed: 42  # For reproducible results
+  volatility_multiplier: 1.0
+  trend_strength: 0.1
+  noise_level: 0.05
+  volume_multiplier: 1.0
+  
+# Risk Management
+risk:
+  max_daily_loss: 0.05  # 5% max daily loss
+  max_drawdown: 0.20  # 20% max drawdown
+  position_sizing_method: "volatility_based"  # fixed, volatility_based, kelly
+  stop_loss_multiplier: 2.0
+  take_profit_multiplier: 3.0
+  
+# Technical Indicators
+indicators:
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bollinger_period: 20
+  bollinger_std: 2.0
+  sma_periods: [20, 50, 200]
+  ema_periods: [12, 26]
+  
+# Trading Strategy Parameters
+strategy_params:
+  momentum:
+    lookback_period: 20
+    threshold: 0.02
+    volume_threshold: 1.5
+    
+  mean_reversion:
+    bb_threshold: 0.2
+    rsi_oversold: 30
+    rsi_overbought: 70
+    
+  trend_following:
+    trend_strength_threshold: 0.5
+    volume_confirmation: true
+    
+  breakout:
+    breakout_threshold: 0.01
+    volume_multiplier: 2.0
+    
+  adaptive:
+    regime_threshold: 0.6
+    confidence_threshold: 0.7
+    
+# Visualization Settings
+visualization:
+  style: "seaborn-v0_8"
+  figure_size: [12, 8]
+  dpi: 300
+  color_palette: "husl"
+  save_format: "png"
+  show_plots: false
+  
+# Output Settings
+output:
+  save_results: true
+  save_charts: true
+  save_trades: true
+  log_level: "INFO"
+  results_dir: "backtest_results"
+  charts_dir: "backtest_charts"
+  
+# Performance Settings
+performance:
+  parallel_processing: true
+  max_workers: 4
+  memory_limit: "2GB"
+  cache_data: true
+  
+# API Settings (for real data integration)
+api:
+  coinbase:
+    enabled: false
+    api_key: ""
+    api_secret: ""
+    sandbox: true
+    
+  binance:
+    enabled: false
+    api_key: ""
+    api_secret: ""
+    testnet: true
+    
+  coinmarketcap:
+    enabled: false
+    api_key: ""
+    
+# Machine Learning Settings (for advanced strategies)
+ml:
+  enabled: false
+  model_type: "lstm"  # lstm, gru, transformer
+  lookback_window: 60
+  prediction_horizon: 1
+  features: ["price", "volume", "rsi", "macd", "bollinger"]
+  
+# Advanced Features
+advanced:
+  monte_carlo: true
+  monte_carlo_runs: 1000
+  walk_forward: false
+  walk_forward_periods: 12
+  optimization: false
+  optimization_metric: "sharpe_ratio"
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "crypto_backtest.log"
+  max_size: "10MB"
+  backup_count: 5

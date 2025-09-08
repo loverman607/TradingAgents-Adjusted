@@ -1,0 +1,93 @@
+# Swing Trading Configuration for Crypto TradingAgents
+# Optimized for longer-term positions and daily analysis
+
+# General Settings
+general:
+  initial_capital: 100000.0
+  max_position_size: 0.15  # 15% max position size for swing trading
+  commission: 0.001  # 0.1% commission per trade
+  slippage: 0.0005  # 0.05% slippage
+  timezone: "UTC"
+
+# Backtest Parameters - SWING TRADING
+backtest:
+  start_date: "2024-01-01"
+  end_date: "2024-12-31"
+  timeframe: "1D"  # Daily timeframe for swing trading
+  tickers: ["BTC", "ETH"]
+  strategy: "trend_following"  # Better for swing trading
+  
+# Data Generation
+data:
+  seed: 42
+  volatility_multiplier: 0.8  # Lower volatility for swing
+  trend_strength: 0.2  # Stronger trends for swing
+  noise_level: 0.03  # Less noise
+  volume_multiplier: 1.2  # Higher volume confirmation
+  
+# Risk Management - SWING OPTIMIZED
+risk:
+  max_daily_loss: 0.03  # 3% max daily loss (lower for swing)
+  max_drawdown: 0.15  # 15% max drawdown (lower for swing)
+  position_sizing_method: "volatility_based"
+  stop_loss_multiplier: 3.0  # Wider stops for swing
+  take_profit_multiplier: 5.0  # Higher targets for swing
+  
+# Technical Indicators - SWING OPTIMIZED
+indicators:
+  rsi_period: 21  # Longer RSI for swing
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bollinger_period: 20
+  bollinger_std: 2.0
+  sma_periods: [20, 50, 100, 200]  # More SMAs for swing
+  ema_periods: [12, 26, 50]  # More EMAs for swing
+  
+# Trading Strategy Parameters - SWING FOCUSED
+strategy_params:
+  trend_following:
+    trend_strength_threshold: 0.6  # Higher threshold for swing
+    volume_confirmation: true
+    lookback_period: 50  # Longer lookback for swing
+    
+  momentum:
+    lookback_period: 30  # Longer momentum period
+    threshold: 0.05  # Higher threshold for swing
+    volume_threshold: 1.8  # Higher volume requirement
+    
+  mean_reversion:
+    bb_threshold: 0.15  # Tighter bands for swing
+    rsi_oversold: 25  # More extreme levels
+    rsi_overbought: 75
+    
+  breakout:
+    breakout_threshold: 0.02  # Higher breakout threshold
+    volume_multiplier: 2.5  # Higher volume requirement
+    
+  adaptive:
+    regime_threshold: 0.7  # Higher confidence for swing
+    confidence_threshold: 0.8  # Higher confidence required
+    
+# Execution Settings - SWING TRADING
+execution:
+  min_hold_period: 3  # Minimum 3 days hold
+  max_hold_period: 30  # Maximum 30 days hold
+  rebalance_frequency: "daily"  # Check daily
+  signal_strength_required: 0.7  # Higher signal strength
+  
+# Performance Settings
+performance:
+  parallel_processing: true
+  max_workers: 2  # Lower workers for swing
+  memory_limit: "1GB"
+  cache_data: true
+  
+# Output Settings
+output:
+  save_results: true
+  save_charts: true
+  save_trades: true
+  log_level: "INFO"
+  results_dir: "swing_backtest_results"
+  charts_dir: "swing_backtest_charts"

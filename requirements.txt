@@ -1,3 +1,4 @@
+# Core TradingAgents dependencies
 typing-extensions
 langchain-openai
 langchain-experimental
@@ -24,3 +25,35 @@ rich
 questionary
 langchain_anthropic
 langchain-google-genai
+numpy
+matplotlib
+python-dotenv
+schedule
+
+# Essential crypto backtesting dependencies
+seaborn>=0.11.0
+scipy>=1.7.0
+plotly>=5.0.0
+dash>=2.0.0
+dash-bootstrap-components>=1.0.0
+ccxt>=3.0.0
+websocket-client>=1.0.0
+python-binance>=1.0.0
+
+# Data analysis and visualization
+bokeh>=2.0.0
+altair>=4.0.0
+
+# Machine learning for advanced strategies (optional)
+scikit-learn>=1.0.0
+
+# Time series analysis
+statsmodels>=0.13.0
+
+# Configuration and logging
+pyyaml>=6.0
+loguru>=0.6.0
+
+# Testing and development (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.20.0

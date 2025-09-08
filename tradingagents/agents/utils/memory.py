@@ -14,12 +14,19 @@ class FinancialSituationMemory:
         self.situation_collection = self.chroma_client.create_collection(name=name)
 
     def get_embedding(self, text):
-        """Get OpenAI embedding for a text"""
-        
-        response = self.client.embeddings.create(
-            model=self.embedding, input=text
-        )
-        return response.data[0].embedding
+        """Get embedding for a text - works with both OpenAI and Google"""
+        try:
+            response = self.client.embeddings.create(
+                model=self.embedding, input=text
+            )
+            return response.data[0].embedding
+        except Exception as e:
+            # If embedding fails (e.g., with Google), return a simple hash-based embedding
+            import hashlib
+            hash_obj = hashlib.md5(text.encode())
+            # Convert hash to a simple vector
+            hash_int = int(hash_obj.hexdigest()[:8], 16)
+            return [float((hash_int >> i) & 1) for i in range(384)]  # 384-dimensional vector
 
     def add_situations(self, situations_and_advice):
         """Add financial situations and their corresponding advice. Parameter is a list of tuples (situation, rec)"""

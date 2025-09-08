@@ -1,0 +1,30 @@
+{
+  "generated_at": "2025-09-07T21:44:23.282538",
+  "portfolio_metrics": {
+    "total_value": 100000.0,
+    "total_pnl": 0,
+    "return_percentage": 0.0,
+    "available_capital": 100000.0
+  },
+  "trading_metrics": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "average_win": 0,
+    "average_loss": 0,
+    "profit_factor": Infinity
+  },
+  "signal_accuracy": {
+    "SHORT": {
+      "total": 1,
+      "profitable": 0,
+      "accuracy": 0.0
+    }
+  },
+  "recent_activity": {
+    "last_analysis": "2025-09-07T21:44:23.280029",
+    "last_trade": null,
+    "total_analyses": 1
+  }
+}
